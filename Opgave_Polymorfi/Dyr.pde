@@ -4,4 +4,8 @@ class Dyr
   {
     rect(20,20,02,2);
   }
+  void move()
+  {
+    
+  }
 }

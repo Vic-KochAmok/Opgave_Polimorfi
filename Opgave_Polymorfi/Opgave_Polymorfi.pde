@@ -1,4 +1,4 @@
-ArrayList <Dyr> dyrelist = new ArratList<Dyr>();
+ArrayList <Dyr> dyrelist = new ArrayList<Dyr>();
 void setup()
 {
   size(800,800);
