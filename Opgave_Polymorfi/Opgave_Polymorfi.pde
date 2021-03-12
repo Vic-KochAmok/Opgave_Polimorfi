@@ -4,8 +4,8 @@ void setup()
   size(800,800);
 }
 
-void draw()
-{
+void draw(){
+  background(204);
   for (Dyr d: dyrelist) 
   {
     d.display();
