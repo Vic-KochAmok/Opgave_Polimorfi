@@ -9,6 +9,7 @@ class Dyr
     x = xpos;
     y = ypos;
     speed = s;
+    
   }  
   void move(){
     movement = speed+0.03;

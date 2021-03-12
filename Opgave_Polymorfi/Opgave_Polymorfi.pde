@@ -1,10 +1,10 @@
-ArrayList <Dyr> dyrelist = new ArrayList<Dyr
+ArrayList <Dyr> dyrelist = new ArrayList<Dyr>();
   PImage hund;
 
 void setup()
 {
   size(800,800);
-  image (hund, 0, 0);
+  hund = loadImage("hund.png");
 }
 
 void draw(){
