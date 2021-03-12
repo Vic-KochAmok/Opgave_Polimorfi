@@ -12,6 +12,6 @@ class Dyr
     
   }  
   void move(){
-    movement = speed+0.03;
+    speed = movement+0.03;
   }
 } 
