@@ -1,9 +1,17 @@
 class Dog extends Dyr{
-   Dog(float x, float y, float s, float udseende) {
-     super(x, y, s);
-     
-   }
-   void display() {
-    rect(10,20,50,30);
+  float x = 1;
+  float y = 20;
+  float speed = 0;
+  
+  Dog(){
+    x=10;
+    y=50;
+  }
+  void display() {
+    background(206);
+    rect(x,y,50,30);
+  }
+  void move(){
+    x = x + speed;
   }
 }
