@@ -3,28 +3,24 @@ PImage hund;
   
 void setup(){
   size(800,800);
-  hund = loadImage("hund.png");
+  hund = loadImage("hund.png");  
 }
 
 void draw(){
-  background(204);
+  background(255);
   for (Dyr d: dyreList){
     d.display();
     d.move();
   }
 }
-    
 
 void keyPressed(){
   Dyr d;
-  if(key=='a')
-  {
+  if(key=='a'){
     d = new Dog();
     dyreList.add(d);
-  }
-  if(key=='b')
-  {
-    d = new Cat();
+  } if(key=='b'){
+    d = new Dogb();
     dyreList.add(d);
   }
 }
