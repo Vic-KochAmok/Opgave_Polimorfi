@@ -1,9 +1,16 @@
 ArrayList<Dyr> dyreList = new ArrayList<Dyr>();
 PImage hund;
-  
+PImage cat;
+Cat c;
+Dog h;
+
 void setup(){
   size(800,800);
-  hund = loadImage("hund.png");  
+  background(255);
+  hund = loadImage("hund.png");
+  cat  = loadImage("Cat.png"); 
+  c = new Cat();
+  h = new Dog();
 }
 
 void draw(){
@@ -20,7 +27,7 @@ void keyPressed(){
     d = new Dog();
     dyreList.add(d);
   } if(key=='b'){
-    d = new Dogb();
+    d = new Cat();
     dyreList.add(d);
   }
 }
