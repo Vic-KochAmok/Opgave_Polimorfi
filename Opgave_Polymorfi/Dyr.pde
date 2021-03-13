@@ -1,6 +1,13 @@
 class Dyr{
-
-  void display(){}
+  float x = 1;
+  float y = 20;
+  float speed = 0;
   
-  void move(){}
-}
+  void display() {
+
+    rect(x,y,50,30);
+  }
+  void move(){
+    x = x + speed;
+  }
+}  
